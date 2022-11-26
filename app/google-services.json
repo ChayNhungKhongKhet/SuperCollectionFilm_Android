@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "450163136404",
+    "project_id": "superfilmcollection",
+    "storage_bucket": "superfilmcollection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450163136404:android:4852892fc842d6dc6e2181",
+        "android_client_info": {
+          "package_name": "com.phamtantb24.superfilmcollection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450163136404-19c0lndjaa06evvg3gvr6fehhv8s1p6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phamtantb24.superfilmcollection",
+            "certificate_hash": "1552f49bcbe2d17a01df56417c9f7211db3c46c0"
+          }
+        },
+        {
+          "client_id": "450163136404-98j8lj5105aet272p7nlv27da3hi8edl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGBPCApZRTZy774CabQaAsTI56ApWV5kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450163136404-98j8lj5105aet272p7nlv27da3hi8edl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

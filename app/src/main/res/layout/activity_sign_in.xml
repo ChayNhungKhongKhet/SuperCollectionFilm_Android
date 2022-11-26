@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+    <RelativeLayout
+        android:id="@+id/headBackground"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/ic_wave" />
+    <RelativeLayout
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+        android:layout_below="@id/headBackground">
+
+        <EditText
+            android:id="@+id/userNameEditTxt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_login"
+            android:hint="   User Name"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/passwordEditTxt"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/userNameEditTxt"
+            android:background="@drawable/shape_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:hint="    Password"/>
+
+        <CheckBox
+            android:id="@+id/cbRememberAcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passwordEditTxt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Remember account"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cbRememberAcc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/forgetPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Forget password ?"
+            android:textSize="15sp" />
+        <View
+            android:layout_marginTop="7dp"
+            android:layout_width="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="1dp"
+            android:layout_below="@id/forgetPass"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/newUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/forgetPass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Create new user"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</RelativeLayout>
